@@ -3,6 +3,8 @@ steps:
     command: buildkite-agent pipeline upload
 
   - wait
-  
+
   - label: "Example Test"
     command: echo "Hello!"
+
+    # I added wait
