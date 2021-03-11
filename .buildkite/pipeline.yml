@@ -1,9 +1,4 @@
 steps:
-  - label: ":pipeline: Pipeline upload"
-    command: buildkite-agent pipeline upload
-
-  - wait
-
   - label: "Example Test"
     command: echo "Hello!"
 
